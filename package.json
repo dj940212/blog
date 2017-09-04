@@ -1,0 +1,22 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "* [rem移动端自适应布局](https://github.com/dj940212/blog/issues/1)",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dj940212/blog.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dj940212/blog/issues"
+  },
+  "homepage": "https://github.com/dj940212/blog#readme",
+  "dependencies": {
+    "express": "^4.15.4"
+  }
+}
