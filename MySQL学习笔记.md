@@ -1,3 +1,5 @@
+## 基本命令
+
 + 启动/停止服务
 
 ```
@@ -8,13 +10,13 @@ net stop mysql
 + 登录
 
 ```sql
-mysql -uroot -p -P3306 -h127.0.0.1
+mysql -uroot -p -P3306 -h127.0.0.1 --prompt \u
 ```
 
 + 修改提示符
 
 ```
-prompt \u@\h \d     //数据库@主机名 数据库
+prompt \u@\h \d>     //数据库@主机名 数据库
 ```
 
 + 创建数据库
